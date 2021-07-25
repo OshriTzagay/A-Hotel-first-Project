@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100vw;
+height: 100vh;
+background-color: rgba(0, 128, 128, 0.452);
+
+}
+
+.Head {
+    max-width: 100%;
+    max-height: 100px;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    background-color: white;
+
+   
+  
+}
+li:hover{
+    transform: rotate(340deg);
+    background-color: teal;
+
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+    color: teal;
+    font-family:'Great Vibes', cursive;
+   padding: 5px;
+}
+
+.Head img{
+    
+    width: 155px;
+    margin-left: 43%;
+    animation-name: tzug;
+animation-direction: alternate;
+animation-duration: 3s;
+}
+@keyframes tzug {
+ 0%  { margin-left: -1000px;}
+ 100% {margin-right: 0;}
+}
+  
+    
+
+.bigHeader h1{
+    font-family:'Great Vibes', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    
+  
+}
+
+.thePics{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.thePics img{
+  width: 750px;
+  justify-content: space-evenly;
+  border: black 2px solid;
+  
+}
+
+.hotelInfo{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+background-color: white;
+width: 50%;
+border: black 3px solid;
+position: relative;
+transition: 2s;
+animation-name: box;
+animation-duration: 6s;
+animation-direction: alternate;
+animation-timing-function: linear;
+animation-iteration-count: 3s;
+}
+@keyframes box {
+    0%{margin-left: 60%;}
+    100%{margin: 0;}
+}
+.hotelInfo:hover{
+    background-color: cadetblue;
+}
+
+/* .hotelInfo img{
+    position: absolute;
+    margin-left:130%;
+   margin-top: 50px; */
+   
+.hotelWorkers h1{
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.img{
+    height: 250px;
+    width: 350px;
+    border: whitesmoke 2px ;
+    border-radius: 50%;
+}
+
+.theForm{
+text-align: center;
+border: white solid 4px;
+margin-top: 10%;
+}
+
+.lastSec{
+display: flex;
+position: relative;
+
+}
+.divon{
+    position: relative;
+    font-family: cursive;
+    border: white 3px solid;
+   /* margin-left: 20%;
+   margin-top: 10%; */
+   margin:auto;
+   top: 100px;
+   text-align: center;
+   font-size: x-large;
+   animation-name: divdiv;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear
+}
+/* 
+@keyframes divdiv {
+    0%   { left: 150px;; top:0px;}
+   /* 25%{left: 200px;top: 0px;}
+   50%{right: 200px;top: 200px;}
+   75%{left:0px;top: 200px;} */
+    /* 100% { right: 150px; top:0px;} */ 
+

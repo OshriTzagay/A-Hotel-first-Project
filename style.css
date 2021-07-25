@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root{
+    --fineFont:'Great Vibes', cursive;
+}
+
+body{
+
+background-image: url(./hotelbackground.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+
+fill-opacity: inherit;
+
+}
+#bigHeader h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+#bigHeader h3{color: royalblue; text-align: center; font-size: 15px; background-color: whitesmoke; }
+
+.HotContainer{
+    display: flex;
+    font-family: var(--fineFont);
+    font-weight: bolder;
+    border: ivory solid;
+    max-width: 100%;
+    /* flex-wrap:wrap;
+    justify-content: space-evenly; */
+    
+   
+}
+img{
+    border: white 4px solid;
+    width: 400px;
+    height: 300px;
+    
+    
+}
+
+div{
+    border: white solid 4px;
+    color: white;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
+/* THIS IS ANIMATION! */
+.firstHotel img{
+animation-name: firstpic;
+animation-duration: 2s;
+animation-direction: alternate;
+
+}
+@keyframes firstpic {
+    0%{margin-left: -1550px;}
+    100%{margin-right: 0; transform: rotateX(360deg);}
+}
+
+.secHotel img{
+    animation-name: secondpic;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    
+    }
+    @keyframes secondpic {
+        0%{margin-left: -1550px;}
+        100%{margin-right: 0; transform: rotateX(360deg);}
+    }
+    
+    .thirdHotel img{
+        animation-name: thirdpic;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-delay: 0s;
+        
+        }
+        @keyframes thirdpic {
+            0%{margin-left: -1550px;}
+            100%{margin-right: 0; transform: rotateX(360deg);}
+        }
+        .fourHotel img{
+            animation-name: fourpic;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-delay: 0s;
+            
+            }
+            @keyframes fourpic {
+                0%{margin-left: -1550px;}
+                100%{margin-right: 0; transform: rotateX(360deg);}
+            }
+            .fiveHotel img{
+                animation-name: fivepic;
+                animation-duration: 2s;
+                animation-direction: alternate;
+                animation-delay: 0s;
+                
+                }
+                @keyframes fivepic {
+                    0%{margin-left: -1550px;}
+                    100%{margin-right: 0; transform: rotateX(360deg);}
+                }
+            
+                /* Form CSS */
+                .theForm{
+color: whitesmoke;
+font-family: sans-serif;
+text-align: center;
+border: white solid 10px;
+width: 500px;
+margin: auto;
+
+                }
+
